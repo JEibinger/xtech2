@@ -1,0 +1,12 @@
+tei-p{
+color: red
+}
+
+tei-hi::before{content: "***"}
+
+tei-hi::after{content: "***"}
+
+tei-hi[rend="superscript"]{
+  vertical-align: super
+
+}
